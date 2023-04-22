@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link logo">DIGITAL <span class="purple">VR</span>еале</a> 
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#un" class="header__nav-link">Уникальность</a> 
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#gal" class="header__nav-link">Галлерея</a> 
+                    </li>
+                    <li class="header__nav-item" id="modal">
+                        <a href="" class="header__nav-link">Абонементы</a>
+                        <ul class="modal">
+                            <li class="modal-item"><a href="#vr">VR-Зона</a> </li>
+                            <li class="modal-item"><a href="#comp">Компьютерная зона</a> </li>
+                        </ul> 
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#contact" class="header__nav-link">Контакты</a> 
+                    </li>
+                </ul>
+                
+            </nav>
+            <h1 class="header__titel" >Приходи и играй на новейшем оборудовании виртуальной реальности</h1>
+            <h3 class="header__subtitle">Скидка в честь открытия 20%</h3>
+            <div class="timer">
+                <div class="timer__box">
+                    <h2 id="days" class="timer__titel">18</h2>
+                    <span class="timer__text">Дней</span>
+                </div>
+                <div class="timer__box">
+                    <h2 id="hours" class="timer__titel">18</h2>
+                    <span class="timer__text">Часов</span>
+                </div>
+                <div class="timer__box">
+                    <h2 id="minutes" class="timer__titel">18</h2>
+                    <span class="timer__text">Минут</span>
+                </div>
+                <div class="timer__box">
+                    <h2 id="seconds" class="timer__titel">18</h2>
+                    <span class="timer__text">Секунд</span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <section class="minis" id="un">
+        <div class="container">
+            <h2 class="minis-title">В чем наша уникальность?</h2>
+            <div class="minis__wrapper">
+                <div class="minis__wrapper-left">
+                    <img src="./img/man.png" alt="" class="minis-img">
+                </div>
+                <div class="minis__wrapper-right">
+                    <h2 class="minis__wrapper-title">ЧТО ТАКОЕ KAT WALK MINI S?</h2>
+                    <p class="minis__wrapper-text">Mini S - это второе поколение VR беговой платформы - полноценного бизнес-решения, оптимизированного для игровых зон и учебных центров, обеспечивающего максимальную простоту использования, высокую эффективность, и дающего непревзойденный опыт передвижения в виртуальной реальности.</p>
+                    <p class="minis__wrapper-text">Объединяя улучшенную технологию симулирования ходьбы с сенсорными ощущениями, mini S открывает бесконечное пространство виртуальной реальности из одной точки реального мира, и позволяет физически ощущать ответную вибрацию на множество виртуальных событий вроде взрывов и землетрясений.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gal">
+        <div class="container">
+            <h3 class="gallery-title">Галлерея</h3>
+            <div class="slider">
+                <img src="./img/slider/1.png" alt="" class="slider-img">
+                <img src="./img/slider/2.jpg" alt="" class="slider-img">
+                <img src="./img/slider/3.png" alt="" class="slider-img">
+                <img src="./img/slider/4.png" alt="" class="slider-img">
+                <img src="./img/slider/5.png" alt="" class="slider-img">
+                <img src="./img/slider/6.png" alt="" class="slider-img">
+                <img src="./img/slider/7.png" alt="" class="slider-img">
+                <img src="./img/slider/8.png" alt="" class="slider-img">
+                <img src="./img/slider/9.png" alt="" class="slider-img">
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="container">
+            <h3 class="price-title">
+                Цены в нашем клубе
+            </h3>
+            <h4 class="price__subtitle" id="vr">
+                VR-Зона
+            </h4>
+            <table class="price__up-table">
+                <tr class="price__up-table-tr">
+                    <th class="price__up-table-th">Тип VR</th>
+                    <th class="price__up-table-th">10 минут</th>
+                    <th class="price__up-table-th">20 минут</th>
+                    <th class="price__up-table-th">30 минут</th>
+                    <th class="price__up-table-th">1 час</th>
+                </tr>
+            </table>
+            <div class="line"></div>
+            <table class="price__table">
+                <tr class="price__table-tr price__table-tr1">
+                    <th class="price__table-th th1">Mini S</th>
+                    <th class="price__table-th">350 рублей</th>
+                    <th class="price__table-th">500 рублей</th>
+                    <th class="price__table-th">800 рублей</th>
+                    <th class="price__table-th">1350 рублей</th>
+                </tr>
+                <tr class="price__table-tr">
+                    <th class="price__table-th th1">Обычный</th>
+                    <th class="price__table-th">150 рублей</th>
+                    <th class="price__table-th">250 рублей</th>
+                    <th class="price__table-th">600 рублей</th>
+                    <th class="price__table-th">950 рублей</th>
+                </tr>
+            </table>
+            <h4 class="price__subtitle" id="comp">
+                Компьютерная зона
+            </h4>
+            <table class="price__up-table">
+                <tr class="price__up-table-tr">
+                    <th class="price__up-table-th">Тип комнаты</th>
+                    <th class="price__up-table-th">30 минут</th>
+                    <th class="price__up-table-th">1 час</th>
+                    <th class="price__up-table-th">2 часа</th>
+                    <th class="price__up-table-th">Вся ночь</th>
+                </tr>
+            </table>
+            <div class="line"></div>
+            <table class="price__table">
+                <tr class="price__table-tr price__table-tr1">
+                    <th class="price__table-th th1">VIP</th>
+                    <th class="price__table-th">150 рублей</th>
+                    <th class="price__table-th">250 рублей</th>
+                    <th class="price__table-th">450 рублей</th>
+                    <th class="price__table-th">1200 рублей</th>
+                </tr>
+                <tr class="price__table-tr">
+                    <th class="price__table-th th1">Обычная</th>
+                    <th class="price__table-th">100 рублей</th>
+                    <th class="price__table-th">200 рублей</th>
+                    <th class="price__table-th">400 рублей</th>
+                    <th class="price__table-th">950 рублей</th>
+                </tr>
+                
+            </table>
+            <a href="#open" class="price__button open_modal">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Забронировать
+            </a>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h3 class="contact__title">
+                Контакты
+            </h3>
+            <div class="contact__wrapper">
+                
+                <div class="contact__wrapper-left">
+                    <p class="contact__wrapper-left-title">
+                        Адресс
+                    </p>
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab714a50668955603f3a777d69d2294b623c54d7495af1820849d6a29c87d8a4a&amp;width=500&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="contact__wrapper-right">
+                    <p class="contact__wrapper-right-title">
+                        Остались вопросы?
+                    </p>
+                    <form action="" class="contact__form">
+                        <input type="text" class="contact__form-inp" placeholder="Ваше имя">
+                        <input type="text" class="contact__form-inp" placeholder="Ваш телефон">
+                        <textarea name="" id="" cols="30" rows="10" class="contact__form-ta"placeholder="Ваш вопрос"></textarea>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="modal" class="modal__window">
+        
+        <div class="modal__top">
+            <h3 class="modal__title">Забронируйте место</h3>
+            <p id="close_modal">+</p>
+        </div>
+        <form action="" class="modal__form">
+            <input type="text" class="contact__form-inp" placeholder="Ваше имя">
+            <input type="text" class="contact__form-inp" placeholder="Ваш телефон">
+            <h4 class="modal__subtitle">Выберите тариф</h4>
+            <div class="modal__box">
+                <div class="modal__cont">
+                    <input name="chek" type="radio"><label>Mini S</label>
+                </div>
+                <div class="modal__cont">
+                    <input name="chek" type="radio"><label>Обычный VR</label>
+                </div>
+                <div class="modal__cont">
+                    <input name="chek" type="radio"><label>VIP компьютер</label>
+                </div>
+                <div class="modal__cont">
+                    <input name="chek" type="radio"><label>Обычный компьютер</label>
+                </div>
+                
+                
+                
+                
+            </div>
+            <a href="#open" class="modal__button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Забронировать
+            </a>
+        </form>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
